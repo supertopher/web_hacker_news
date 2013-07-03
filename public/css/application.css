@@ -43,6 +43,7 @@ header{
 }
 
 .signup_form{
+  padding: 1em;
   display: block;
   width: 85%;
   margin: auto;

@@ -7,7 +7,6 @@ post '/posts' do
   end
 end
 
-get '/users/:id' do |id|
-  @user = User.find_by_id(id)
-  erb :'users/show'
+get '/posts/new' do
+  erb :'posts/new'
 end
