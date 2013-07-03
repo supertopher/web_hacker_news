@@ -1,9 +1,24 @@
 .container {
-  margin: 20px auto;
-  width: 600px;
-  padding: 0px 20px 20px 20px;
-  border: 1px dotted black;
+  margin: 0 auto;
+  width: 85%;
+  background-color: #F6F6EF;
 }
 th {
   text-align: left;
+}
+
+header{
+  color: white;
+  padding-top: .1em;
+  padding-bottom: .3em;
+  display: block;
+  margin: 0 auto;
+  width: 85%;
+  background-color: #B6CD29;
+}
+
+.user{
+  display: inline-block;
+  float: right;
+  margin-right: 5%;
 }
