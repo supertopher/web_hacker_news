@@ -1,10 +1,12 @@
+<% require 'timewarp' %>
 <div class="container">
   <% Post.last(20).each_with_index do |this_post, index| %>
     <% index += 1 %>
+    <% TimeWarp.set_delta_time Post.first.created_at  %>
     <div class="news_list_item">
       <span class="news_number"><%= index %></span>
       <span class="news_title"><a href="<%= this_post.url %>"><%= this_post.title %></a> <%= this_post.content %></span>
-      <span class="news_comments"><a><%= this_post.comments.count %> comments</a></span>
+      <span class="news_comments"><a><%= this_post.comments.count %> comments | Posted <%= TimeWarp.minutes_ago %> minutes ago</a></span>
     </div>
 
   <% end %>
