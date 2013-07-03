@@ -1,7 +1,7 @@
 require 'faker'
 
 20.times do
-  Post.create(title: Faker::Company.bs, content: Faker::Lorem.sentences(2), url: Faker::Internet.url)
+  Post.create(title: Faker::Company.bs, content: Faker::Lorem.sentence, url: Faker::Internet.url)
 end
 
 20.times do
