@@ -42,6 +42,15 @@ header{
   color: #999691;
 }
 
-.news_number{
-
+.signup_form{
+  display: block;
+  width: 85%;
+  margin: auto;
+}
+.labels{
+  margin-top: .5em;
+}
+#signup {
+  text-decoration: none;
+  color: white;
 }
