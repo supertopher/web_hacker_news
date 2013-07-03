@@ -56,3 +56,18 @@ header{
   color: white;
 }
 
+.title a{
+  text-decoration: none;
+  color: white;
+}
+
+header ul{
+  margin: 0;
+  display: inline-block;
+}
+
+header ul li{
+  font-family: 'Arial';
+  display: inline-block;
+}
+

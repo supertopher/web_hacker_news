@@ -21,7 +21,13 @@
 <body>
   <header>
     <img src="http://localhost:9393/favicon.ico">
-    <span class="title">Flizzard News.</span>
+    <span class="title"><a href="http://localhost:9393/">Flizzard News</a>
+    <ul>
+      <li>new |</li>
+      <li>comments |</li>
+      <li><a href="http://localhost:9393/posts/new">submit</a></li>
+    </ul>
+    </span>
     <span class="user">
       <% if current_user %>
         <a href="users/<%= current_user.id %>">
