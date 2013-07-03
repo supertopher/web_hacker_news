@@ -8,6 +8,7 @@ th {
 }
 
 header{
+  font-family: 'Archivo Black', sans-serif;
   color: white;
   padding-top: .1em;
   padding-bottom: .3em;
@@ -21,4 +22,26 @@ header{
   display: inline-block;
   float: right;
   margin-right: 5%;
+}
+
+.footer_rule{
+  width: 85%;
+  height: .2em;
+  background-color:  #B6CD29;
+}
+
+.news_list_item{
+  padding-top: .4em;
+}
+
+.news_title{
+  color: #361300;
+}
+
+.news_title a{
+  color: #999691;
+}
+
+.news_number{
+
 }
