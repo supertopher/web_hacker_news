@@ -31,7 +31,7 @@ header{
 }
 
 .news_list_item{
-  padding-top: .4em;
+  padding-top: .3em;
 }
 
 .news_title{
@@ -70,5 +70,11 @@ header ul{
 header ul li{
   font-family: 'Arial';
   display: inline-block;
+}
+
+.news_comments{
+  font-size: 0.7em;
+  color: #361300;
+
 }
 
