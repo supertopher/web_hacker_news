@@ -19,6 +19,7 @@ gem 'rake'
 gem 'shotgun'
 
 group :test do
+  gem 'wirble'
   gem 'faker'
   gem 'rspec'
 end
