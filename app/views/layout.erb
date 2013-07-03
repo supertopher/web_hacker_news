@@ -20,11 +20,13 @@
 </head>
 <body>
   <header>
-    <img src="favicon.ico">
+    <img src="http://localhost:9393/favicon.ico">
     <span class="title">Flizzard News.</span>
     <span class="user">
       <% if current_user %>
+        <a href="users/<%= current_user.id %>">
         <%= current_user.username %>
+        </a>
         <% else %>
         <%= "<a href='http://localhost:9393/signup' id='signup'>Sign Up</a>" %>
       <% end %>

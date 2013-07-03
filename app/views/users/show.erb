@@ -1,0 +1,11 @@
+<div class="container">
+  <h3><%= @user.username %>'s page</h3>
+  <h4>Your submissions:</h4>
+  <% @user.posts.each do |post| %>
+    <%= post.title %>
+  <% end %>
+  <h4>Your comments:</h4>
+  <% @user.comments.each do |comment| %>
+    <%= comment.body %>
+  <% end %>
+</div>

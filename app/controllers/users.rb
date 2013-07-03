@@ -13,3 +13,8 @@ post '/users' do
     redirect '/signup'
   end
 end
+
+get '/users/:id' do |id|
+  @user = User.find_by_id(id)
+  erb :'users/show'
+end
